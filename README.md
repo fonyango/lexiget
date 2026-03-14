@@ -212,7 +212,7 @@ LexiGet can be used for:
 
 ### License
 
-![MIT License](https://github.com/fonyango/lexiget/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 
 
