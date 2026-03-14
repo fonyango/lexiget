@@ -1,4 +1,4 @@
-# LexiGet — AI Document Extraction System
+## LexiGet — AI Document Extraction System
 
 LexiGet is an AI-powered system for extracting structured data from business documents such as **invoices, receipts, delivery notes, and contracts**. It converts unstructured PDF documents into structured JSON and CSV outputs suitable for analytics and automation workflows.
 
@@ -6,7 +6,7 @@ The system combines **LLM-powered extraction**, schema validation, and batch pro
 
 ---
 
-# Features
+### Features
 
 - Extract structured data from **Invoices**
 - Extract structured data from **Receipts**
@@ -21,7 +21,7 @@ The system combines **LLM-powered extraction**, schema validation, and batch pro
 
 ---
 
-# System Architecture
+### System Architecture
 
 The extraction pipeline works as follows:
 PDF / ZIP Upload
@@ -41,9 +41,9 @@ CSV Export
 
 ---
 
-# Example Output
+### Example Output
 
-### Extracted JSON
+#### Extracted JSON
 
 ```json
 {
@@ -68,7 +68,7 @@ CSV Export
 }
 ```
 
-## CSV Export
+### CSV Export
 
 LexiGet generates three CSV outputs:
 
@@ -98,7 +98,7 @@ Example items columns:
 
 ---
 
-## User Interface
+### User Interface
 
 LexiGet provides a Streamlit web interface where users can:
 
@@ -109,8 +109,8 @@ LexiGet provides a Streamlit web interface where users can:
 
 ---
 
-## Project Structure
-
+### Project Structure
+```
 lexiget
 │
 ├── src/app
@@ -130,10 +130,10 @@ lexiget
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
-## Installation
+### Installation
 
 Clone the repository:
 
@@ -146,9 +146,9 @@ Install dependencies:
 
 `pip install -r requirements.txt`
 
-## Running the Backend
+### Running the Backend
 
-### Set up model from ollama
+#### Set up model from ollama
 
 Download ollama
 
@@ -162,13 +162,13 @@ Start ollama server
 
 `ollama serve`
 
-### Start the FastAPI server
+#### Start the FastAPI server
 
 `uvicorn src.app.main:app --reload`
 
 The backend will run at `http://localhost:8000`
 
-## Running the UI
+### Running the UI
 
 Start the Streamlit interface:
 
@@ -177,7 +177,7 @@ Start the Streamlit interface:
 The UI will open at `http://localhost:8501`
 
 --- 
-## Usage
+### Usage
 
 - Upload a PDF or ZIP of documents
 - Select document type
@@ -195,7 +195,7 @@ LexiGet can be used for:
 
 ---
 
-## Future Improvements
+### Future Improvements
 
 - OCR support for scanned documents
 - Automatic document type detection
@@ -205,7 +205,7 @@ LexiGet can be used for:
 
 --- 
 
-## License
+### License
 
 MIT License
 
