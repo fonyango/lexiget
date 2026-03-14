@@ -64,6 +64,12 @@ results/
 *.jpg
 *.jpeg
 
+# Allow documentation images
+!images/
+!images/*.png
+!images/*.jpg
+!images/*.jpeg
+
 # Docker
 docker-compose.override.yml
 
