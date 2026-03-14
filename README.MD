@@ -1,5 +1,7 @@
 ## LexiGet — AI Document Extraction System
 
+![LexiGet UI](images/lexiget_ui.png)
+
 LexiGet is an AI-powered system for extracting structured data from business documents such as **invoices, receipts, delivery notes, and contracts**. It converts unstructured PDF documents into structured JSON and CSV outputs suitable for analytics and automation workflows.
 
 The system combines **LLM-powered extraction**, schema validation, and batch processing to transform documents into structured datasets.
@@ -24,6 +26,8 @@ The system combines **LLM-powered extraction**, schema validation, and batch pro
 ### System Architecture
 
 The extraction pipeline works as follows:
+
+```
 PDF / ZIP Upload
 ↓
 Text Extraction (pdfplumber)
@@ -37,6 +41,7 @@ Schema Validation (Pydantic)
 Structured JSON
 ↓
 CSV Export
+```
 
 
 ---
@@ -207,7 +212,8 @@ LexiGet can be used for:
 
 ### License
 
-MIT License
+![MIT License](https://github.com/fonyango/lexiget/blob/main/LICENSE)
+
 
 
 
